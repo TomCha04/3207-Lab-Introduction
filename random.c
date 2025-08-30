@@ -7,6 +7,7 @@
 
 char randchar();
 
+//Description: return a random capital letter from the alphabet
 char randchar() {
     char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     return alphabet[rand()%26];
